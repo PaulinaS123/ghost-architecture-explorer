@@ -47,7 +47,7 @@ The prototype begins with four sample articles. The `createPost` function checks
 
 ```bash
 # Clone your published repository (replace with your actual URL)
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/PaulinaS123/ghost-architecture-explorer.git>
 cd ghost-architecture-explorer
 
 # Install dependencies
