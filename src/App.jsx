@@ -371,6 +371,8 @@ function App() {
                     <span aria-hidden="true">⌕</span>
                     <span className="visually-hidden">Search articles</span>
                     <input
+                      id="article-search"
+                      name="article-search"
                       value={search}
                       onChange={(event) => setSearch(event.target.value)}
                       placeholder="Search articles..."
@@ -380,6 +382,8 @@ function App() {
                   <label className="filter-label">
                     <span className="visually-hidden">Filter by status</span>
                     <select
+                      id="article-status-filter"
+                      name="article-status-filter"
                       value={filter}
                       onChange={(event) => setFilter(event.target.value)}
                     >
